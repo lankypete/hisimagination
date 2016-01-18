@@ -19,7 +19,7 @@ $.fn.scrollTo = function( target, options, callback ){
 
 /*------------------------------*/
 
-var lowEnough = $('.first-screen').height() - 40;
+var lowEnough = $('.first-screen').height() - 10;
 
 $(window).scroll(function(){
 	if ($(window).scrollTop() > lowEnough){
