@@ -1,0 +1,197 @@
+/*COLORS #C7D0D8 */
+
+body{
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
+	/*background-color: #FFFAFA;*/
+	background-color: black;
+}
+
+p{
+	margin: 0;
+	color: white;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #C7D0D8;
+    transition: color .1s;
+   -moz-transition: color .1s;
+   -webkit-transition: color .1s;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+ul{
+	list-style: none;
+	padding-left: 25px;
+	line-height: 2em;
+}
+
+.black-menu{
+	position: fixed;
+	top: 0px;
+	z-index: 10;
+	background-color: black;
+	height: 60px;
+	width: 100%;
+}
+
+.back-layer{
+	position: relative;
+	top: 0px;
+	height: 100vh;
+	margin: 0;
+	z-index: 2;
+}
+
+.mid-layer{
+	position: absolute;
+	top: 0px;
+	background: linear-gradient(black, transparent);
+	height: 100vh;
+	width: 100%;
+	z-index: 11;
+}
+
+.first-screen{
+	position: relative;
+	bottom: 100vh;
+	z-index: 12;
+	width: 100%;
+	height: 100vh;
+}
+
+header{
+	display: flex;
+	justify-content: space-around;
+	height: 100%;
+	align-items: center;
+}
+
+/*Album Titles*/
+h3{
+	font-size: 24px;
+	text-align: center;
+	margin: 5px auto;
+}
+
+.header-text{
+	font-size: 55px;
+	color: #C7D0D8;
+	font-weight: 200;
+}
+
+.pos1{
+	position: fixed;
+	z-index: 10;
+	top: 22px;
+	left: 27px;
+}
+
+.tracks-button{
+	position: fixed;
+	z-index: 10;
+	top: 22px;
+	left: 240px;
+}
+
+.tracks-button img{
+	height: 20px;
+	width: 20px;
+	position: absolute;
+	left: -25px;
+	top: -1px;
+}
+
+.img-flip{
+	display: none;
+}
+
+.pos2{
+	position: fixed;
+	z-index: 10;
+	width: 40px;
+	top: 22px;
+	right: 40px;
+}
+
+.pos2 img{
+	height: 20px;
+	width: 20px;
+	position: absolute;
+	left: -25px;
+	top: -1px;
+}
+
+.pos3{
+	position: fixed;
+	z-index: 10;
+	top: 22px;
+	right: 130px;
+}
+
+.second-screen{
+	position: absolute;
+	top: 100vh;
+	z-index: 0;
+	background-color: white;
+	width: 100%;
+	height: 100vh;
+}
+
+.track-menu{
+	position: absolute;
+	top: 70px;
+}
+
+.info-menu{
+	position: absolute;
+	bottom: 10px;
+}
+
+.content-box{
+	position: absolute;
+	overflow: hidden;
+	top: 60px;
+	left: 200px;
+	height: 90vh;
+	width: 73%;
+}
+
+.an-album{
+	margin: 0 auto;
+	padding-bottom: 50px;
+	width: 640px;
+}
+
+.album-art img{
+	width: 640px;
+	height: 550px;
+}
+
+.tracklist{
+	text-align: center;
+	list-style-position:inside;
+	line-height: 2em;
+	padding: 0;
+}
+
+.album-desc{
+	color: black;
+}
